@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerCraft - Professional Career Development Platform</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-rocket"></i> CareerCraft
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#about" class="nav-link">About Us</a></li>
+                <li><a href="login.html" class="nav-link login-btn">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Elevate Your <span>Career</span> with CareerCraft</h1>
+            <p>Your comprehensive platform for professional growth and career advancement</p>
+            <a href="login.html" class="cta-button">Get Started Now</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p class="section-subtitle">Comprehensive tools designed to accelerate your career growth</p>
+            
+            <div class="services-grid">
+                <!-- Job Finder -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Job Finder</h3>
+                    <p>Discover thousands of job opportunities tailored to your skills and preferences. Filter by location, industry, experience level, and salary to find your perfect match.</p>
+                    <a href="#" class="service-link protected-service" data-url="https://job-finder-murex-zeta.vercel.app/">
+                        Explore Jobs <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Code Tracker -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Code Tracker</h3>
+                    <p>Monitor your coding progress and track your programming journey. Analyze your coding patterns, improve your skills, and build a comprehensive portfolio of your work.</p>
+                    <a href="#" class="service-link protected-service" data-url="https://coding-tracker-pearl.vercel.app/">
+                        Track Your Code <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- AI Resume Analyzer -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>AI Resume Analyzer</h3>
+                    <p>Get intelligent feedback on your resume powered by advanced AI. Optimize your resume for ATS systems, enhance content, and increase your chances of landing interviews.</p>
+                    <a href="#" class="service-link protected-service" data-url="https://resanalyser.vercel.app/">
+                        Analyze Resume <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- AI Mock Interview -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>AI Mock Interview</h3>
+                    <p>Practice interviews with an intelligent AI interviewer. Receive detailed feedback on your communication skills, technical knowledge, and interview techniques to build confidence.</p>
+                    <a href="https://ai-mock-interview-ntzn.onrender.com/" class="service-link" target="_blank" rel="noopener noreferrer">
+                        Practice Interview <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About CareerCraft</h2>
+            <p class="section-subtitle">Empowering professionals worldwide</p>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Mission</h3>
+                    <p>At CareerCraft, we believe every professional deserves the tools and support needed to reach their full potential. Our mission is to democratize career development by providing comprehensive, AI-powered solutions that help individuals at every stage of their career journey.</p>
+                    
+                    <h3>Why Choose Us?</h3>
+                    <ul class="features-list">
+                        <li><strong>Cutting-Edge Technology:</strong> Leveraging AI and machine learning for personalized career guidance</li>
+                        <li><strong>Comprehensive Solutions:</strong> All-in-one platform for job searching, skill tracking, and interview preparation</li>
+                        <li><strong>User-Centric Design:</strong> Intuitive interfaces designed with real user feedback</li>
+                        <li><strong>Data-Driven Insights:</strong> Analytics and metrics to track your progress</li>
+                        <li><strong>Expert Support:</strong> Professional guidance and best practices from industry experts</li>
+                        <li><strong>Continuous Innovation:</strong> Regular updates with new features and improvements</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="team-section">
+                <h3>Meet Our Team</h3>
+                <div class="team-grid" id="team-container">
+                    <!-- Vaibhav Tyagi -->
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="images/vaibhav.jpeg" alt="Vaibhav Tyagi">
+                        </div>
+                        <div class="member-info">
+                            <h4>Vaibhav Tyagi</h4>
+                            <p class="member-role">Full-Stack Developer & ML Specialist</p>
+                            <p class="member-bio">Vaibhav is a versatile technologist with expertise in machine learning, data science, and full-stack development. A certified ML specialist from deeplearning.ai and Harvard's CS50x graduate, he brings deep technical knowledge in Python, TensorFlow, React.js, and SQL to drive innovation at CareerCraft.</p>
+                            <div class="member-skills">
+                                <span class="skill-tag">Machine Learning</span>
+                                <span class="skill-tag">Full-Stack Dev</span>
+                                <span class="skill-tag">Data Science</span>
+                                <span class="skill-tag">React.js</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">SQL</span>
+                            </div>
+                            <div class="member-social">
+                                <a href="https://www.linkedin.com/in/vaibhav17t/" target="_blank" class="social-link" title="LinkedIn">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Somil Agrawal -->
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="images/somil.jpeg" alt="Somil Agrawal">
+                        </div>
+                        <div class="member-info">
+                            <h4>Somil Agrawal</h4>
+                            <p class="member-role">Full-Stack Web Developer</p>
+                            <p class="member-bio">Somil is a final-year Computer Science student at VIT Bhopal with exceptional expertise in full-stack web development. Proficient in modern web technologies including React, Node.js, and databases, he excels at building responsive, user-centric web applications. His practical approach to development and attention to detail make him a valuable asset to the CareerCraft team.</p>
+                            <div class="member-skills">
+                                <span class="skill-tag">React.js</span>
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">Full-Stack Dev</span>
+                                <span class="skill-tag">Web Design</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">MongoDB</span>
+                            </div>
+                            <div class="member-social">
+                                <a href="https://www.linkedin.com/in/somil-agrawal-28a707250/" target="_blank" class="social-link" title="LinkedIn">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Trusha Anand -->
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="images/trusha2.jpeg" alt="Trusha Anand">
+                        </div>
+                        <div class="member-info">
+                            <h4>Trusha Anand</h4>
+                            <p class="member-role">Frontend & AI Developer</p>
+                            <p class="member-bio">Trusha is a skilled frontend developer with deep expertise in documentation and AI/Python integration. She specializes in creating intuitive user interfaces and implementing AI-powered features that enhance user experience. Her knowledge spans modern frontend frameworks, AI libraries, and best practices in technical documentation, making her instrumental in building CareerCraft's intelligent features.</p>
+                            <div class="member-skills">
+                                <span class="skill-tag">Frontend Dev</span>
+                                <span class="skill-tag">AI/Python</span>
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">UI/UX</span>
+                                <span class="skill-tag">Documentation</span>
+                                <span class="skill-tag">Machine Learning</span>
+                            </div>
+                            <div class="member-social">
+                                <a href="https://www.linkedin.com/in/trusha-anand-b6b799251/" target="_blank" class="social-link" title="LinkedIn">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Arsh Kumar -->
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="images/arsh.jpeg" alt="Arsh Kumar">
+                        </div>
+                        <div class="member-info">
+                            <h4>Arsh Kumar</h4>
+                            <p class="member-role">Backend & Database Engineer</p>
+                            <p class="member-bio">Arsh is a backend specialist with strong expertise in server-side architecture and database optimization. With a keen eye for scalability and performance, he designs robust backend systems that power CareerCraft's core functionalities. His proficiency in APIs, database management, and system design ensures reliable and efficient operations.</p>
+                            <div class="member-skills">
+                                <span class="skill-tag">Backend Dev</span>
+                                <span class="skill-tag">Database Design</span>
+                                <span class="skill-tag">API Development</span>
+                                <span class="skill-tag">Server Architecture</span>
+                                <span class="skill-tag">SQL</span>
+                                <span class="skill-tag">System Design</span>
+                            </div>
+                            <div class="member-social">
+                                <a href="https://www.linkedin.com/in/arsh-kumar-738595250/" target="_blank" class="social-link" title="LinkedIn">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gaurav Gupta -->
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="images/gaurav.jpeg" alt="Gaurav Gupta">
+                        </div>
+                        <div class="member-info">
+                            <h4>Gaurav Gupta</h4>
+                            <p class="member-role">Full-Stack Developer & DSA Expert</p>
+                            <p class="member-bio">Gaurav is a passionate Computer Science Engineering student at VIT with exceptional expertise in full-stack development and algorithmic problem-solving. With 300+ DSA problems solved and multiple national-level hackathon participations, he brings strong technical foundations combined with practical experience. His proficiency in React, Node.js, MongoDB, and AWS enables him to build scalable, enterprise-grade web applications while maintaining code quality and best practices.</p>
+                            <div class="member-skills">
+                                <span class="skill-tag">Full-Stack Dev</span>
+                                <span class="skill-tag">DSA Expert</span>
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">MongoDB</span>
+                                <span class="skill-tag">AWS</span>
+                            </div>
+                            <div class="member-social">
+                                <a href="https://www.linkedin.com/in/gaurav037/" target="_blank" class="social-link" title="LinkedIn">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>CareerCraft</h4>
+                    <p>Your partner in professional excellence</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="https://job-finder-murex-zeta.vercel.app/" target="_blank">Job Finder</a></li>
+                        <li><a href="https://coding-tracker-pearl.vercel.app/" target="_blank">Code Tracker</a></li>
+                        <li><a href="https://resanalyser.vercel.app/" target="_blank">Resume Analyzer</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 CareerCraft. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

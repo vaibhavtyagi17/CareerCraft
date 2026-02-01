@@ -1,0 +1,6 @@
+CareerCraft Server is running on port 5001
+Visit http://localhost:5001 to access the application
+Connected to SQLite database
+Users table ready
+Sessions table ready
+Audit log table ready
